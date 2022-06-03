@@ -5,6 +5,8 @@ import main_menu
 import sound
 import texts
 
+pygame.init()
+pygame.mixer.init()
 pygame.font.init()
 
 lost_game = False
